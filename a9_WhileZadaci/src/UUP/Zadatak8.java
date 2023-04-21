@@ -1,0 +1,21 @@
+package UUP;
+
+// Sastaviti algoritam i napisati program za nalaženje najvećeg pozitivnog korena funkcije
+// f(x) =  x*x*x - 18 * x*x + 42 * x - 30
+// koristeći iterativnu formulu
+
+public class Zadatak8 {
+	public static void main(String[] args) {
+		double x = 18.0;
+		double y = 30.0 / (x * x) - 42.0 / x + 18.0;
+		int i = 1;
+
+		while (Math.abs(y - x) > 1.0E-5) {
+			x = y;
+			y = 30.0 / (x * x) - 42.0 / x + 18.0;
+			System.out.println(i + " iteracija " + y + " " + x);
+			i++;
+		}
+		System.out.println("Dobijena vrednost je x= " + y);
+	}
+}

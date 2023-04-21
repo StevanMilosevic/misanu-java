@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;oktobar02_linijskaStruktura&apos; to &apos;a1_LinijskaStruktura&apos;&#x0D;&#x0A;- Original element: &apos;oktobar02_linijskaStruktura&apos;&#x0D;&#x0A;- Renamed element: &apos;oktobar02_linijskaStruktura&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;oktobar02_linijskaStruktura&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=oktobar02_linijskaStruktura" name="a1_LinijskaStruktura" references="true" stamp="1682102368626" version="1.0"/>
+</session>

@@ -1,0 +1,24 @@
+package UUP;
+// Napisati program za izračunavanje sume svih parnih brojeva od 1 do zadatog broja n
+// korišćenjem while petlje.
+// resenje: n=17 -> suma=72
+
+import java.util.Scanner;
+
+public class Vezba1 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.print("Unesite vrednost za n: ");
+		int n = input.nextInt();
+		int i = 1, suma = 0; // suma = 0 jer je to neutral prilikom sabiranja
+
+		while (i <= n) {
+			if (i % 2 == 0)
+				suma += i;
+			i++;
+		}
+		System.out.println("Suma je: " + suma);
+		input.close();
+
+	}
+}

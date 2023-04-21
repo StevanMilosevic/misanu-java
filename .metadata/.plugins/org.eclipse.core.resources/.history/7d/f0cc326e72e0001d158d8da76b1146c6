@@ -1,0 +1,19 @@
+package LinijskaStruktura;
+import java.util.Scanner;
+
+/* 
+ * pretvaranje kilobajta u bajtove 
+ * 
+ * */ 
+public class Bajt{
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Pretvaranje veličine memorije iz kilobajta u bajte");
+		System.out.println("Veličina datoteke u kilobajtima: ");
+		int kb= input.nextInt();
+	
+		System.out.print("Veličina datoteke u bajtima je: " + kb * 1024 + " bajtova");
+	
+	}
+}

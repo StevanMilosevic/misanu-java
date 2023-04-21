@@ -1,0 +1,18 @@
+package stevan;
+
+import java.util.Scanner;
+
+public class Zadatak7 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int dan;
+        System.out.print("Unesite dan u godini: ");
+        dan = input.nextInt();
+        
+        input.close();
+
+        if(dan % 7 == 1){
+            System.out.println("ponedeljak");
+        }
+    }
+}

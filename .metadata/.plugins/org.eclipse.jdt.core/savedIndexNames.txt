@@ -1,0 +1,12 @@
+INDEX VERSION 1.131+C:\Users\Steva\java-misanu\.metadata\.plugins\org.eclipse.jdt.core
+2870200272.index
+2929212602.index
+3837918718.index
+1643541907.index
+1713383886.index
+3035759908.index
+2338974428.index
+1865797976.index
+1886992905.index
+117256343.index
+3477985818.index

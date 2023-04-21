@@ -1,0 +1,31 @@
+package UUP;
+
+// Napisati program kojim se izračunava vrednost sume
+// S = 1/2 + 1/4 + 1/6 + 1/8 + ... + 1/2n
+// za unetu vrednost n.
+// Zadatak rešiti pomoću while i do-while
+
+import java.util.Scanner;
+
+public class Zadatak10 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.print("Unesite vrednost za n: ");
+		int n = input.nextInt();
+		System.out.print("Unesite vrednost za m: ");
+		int m = input.nextInt();
+		int i = 1, j = 1;
+		double suma = 0, S = 0;
+		while (i <= n) {
+			suma += (double) 1 / (2 * i);
+			i++;
+		}
+		do {
+			S += (double) 1 / (2 * j);
+			j++;
+		} while (j <= m);
+		input.close();
+		System.out.println("Suma za n je: " + suma);
+		System.out.println("Zbir za m je: " + S);
+	}
+}

@@ -1,0 +1,18 @@
+package UUP;
+
+import java.text.DecimalFormat;
+
+public class Zadatak15while {
+	public static void main(String[] args) {
+		double x = 1.0, y;
+		DecimalFormat df = new DecimalFormat("#.##");
+		System.out.println("\tR.BR\tX\tY(X)");
+		int i = 1;
+		while (x <= 10) {
+			y = x - 0.3 * (Math.pow(x, 2) / (x + 1.2));
+			System.out.println("\t" + i + "\t" + df.format(x) + "\t" + df.format(y));
+			x += 0.5;
+			i++;
+		}
+	}
+}

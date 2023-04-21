@@ -1,0 +1,27 @@
+package UUP;// Sastaviti algoritam i napisati program za iterativno rešavanje sistema jednačina
+// Na ulazu je data vrednost za epsilon i početne vrednosti za x i y. Na izlazu štampati rešenja sistema jednačina.
+
+import java.io.*;
+
+
+public class Zadatak13 {
+    public static void main(String[] args) throws Exception {
+        BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+        System.out.print("Unesite vrednost za epsilon: ");
+        double eps = Double.parseDouble(input.readLine());
+        System.out.print("Unesite vrednost za x0: ");
+        double x0 = Double.parseDouble(input.readLine());
+        System.out.print("Unesite vrednost za y0: ");
+        double y0 = Double.parseDouble(input.readLine());
+
+        double x1 = 0.5 * Math.sqrt(x0 * (3 * y0 -1) + 1);
+        double y1 = Math.sqrt((x0 + 3) / 2);
+        while(Math.abs(x1 - x0) > eps || Math.abs(y1 - y0) > eps){
+            x0 = x1;
+            x1 = 0.5 * Math.sqrt(x0 * (3 * y0 -1) + 1);
+            y0 = y1;
+            y1 = Math.sqrt((x0 + 3) / 2);
+        }
+        System.out.println("Resenja sistema jednacina su:\nx = " + x1 + "\ny = " + y1);
+    }
+}
