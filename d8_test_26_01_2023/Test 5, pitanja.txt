@@ -1,0 +1,72 @@
+1. Objasniti i na primeru pokazati unapređenu for petlju. 
+2. Upotrebom Stream-ova omogućiti upisivanje podataka unetih sa konzole unutar fajla.
+
+1. Objasniti i na primeru pokazati operatore inkrementiranja i dekrementiranja. 
+2. Kreirati Enum sa oznakama dana u nedelji. Prikazati sve dane navedene u nabrajanju i njihove redne brojeve u  listi nabrajanja. Koje osnovne metode podrzavaju (automatski su ugrađene) u klasu Enum
+
+1. operatori - sve objasniti
+2. omoguciti citanje podataka iz fajla (kao za prvog kandidata)
+
+1. Objasniti i na primeru pokazati ključnu reč new. 
+2. Kreirati ArrayList sa proizvoljnim imenima, a nakon toga prikazati osnovne metode podržava kolekcija  ArrayList.
+
+1. Objasniti i na primeru pokazati ključnu reč super. 
+2. Kreirati LinkedList sa proizvoljnim imenima, a nakon toga prikazati osnovne metode podržava kolekcija  LinkedList.
+
+1. Kreirati dvodimenzionalni niz proizvoljnog tipa. Odstampati prvi i poslednji element dvodimenzionalnog niza.  
+2. Objasniti i na primeru pokazati upotrebu interfejsa
+
+1. Kreirati lambda izraz koji ispituje da li je broj pozitivan i paran.  
+2. Definicija metode. Statiticke metode. Poziv metoda
+
+1. Kreirati ListIterator. Odstampati elemente kolekcije.  
+2. Kreirati I odstampati dvodimenzionalni niz kao na slici:
+1 1 1 1 1
+2 2 2 2 2 
+3 3 3 3 3 
+4 4 4 4 4 
+5 5 5 5 5 
+
+1. Kreirati Iterator. Odstampati elemente niza.  
+2. Kreirati niz proizvoljnog tipa. Odštampati elemente niza.
+
+1. Kreirati genericku klasu. Kreirati konstruktor, genericke getere i setere i metodu koja ispisuje tip.  
+2. Kreirati dvodimenzionalni niz i odštampati elemente kao na slici:
+5 5 5 5 5
+4 4 4 4 4
+3 3 3 3 3
+2 2 2 2 2
+1 1 1 1 1
+
+1. Šta su I cemu služe geteri i seteri. Prikazati na primeru. 
+2. Obrada izuzetaka. Prikazati korisnički definisan izuzetak.
+
+1. Prikazati osnovne matematičke funkcije.  
+2. Objasniti „default“ konstruktor. Prikazati na primeru.
+
+1. Kreirati konstruktor za klasu Korisnik, koji koristi ime, prezime i ulogu.  
+2. Objasniti i na primeru pokazati klauzulu throws.
+
+1. Objasniti i na primeru pokazati preklapanje konstruktora.  
+2. Objasniti i na primeru pokazati kreiranje konstanti.
+
+1. Objasniti i na primeru pokazati deklaraciju i inicijalizaciju različitih tipova nizova.
+2. Kreirati konstruktor za klasu Vozilo, koji koristi model, boja i godProizvodnje
+
+1. Sta je i čemu služi ključna reč This.  
+2. Klasa String – objasniti i na primeru pokazati
+
+1. Objasniti i na primeru prikazati Apstraktne I konkretne klase. 
+2. Kako se vrši poređenje stringkova.
+
+1. Objasniti ideju polimorfizma. 
+2. Konstruktor potklase i ključna reč super
+
+1. Generisati slucajan broj u intervalu od 1..10. 
+2. Kreirati dvodimenzionalni niz. Uneti proizvoljne vrednosti. Ispisati samo indekse elemenata  dvodimenzionalnog niza.
+
+1. Do while ciklus objasniti i na primeru pokazati. 
+2. Kreirati klasu Patika, sa atributom velicina. Omoguciti kreiranje konstrukora, getera, setera i metode koja  omogucuje opis klase. Kreirati dodatnu klasu PatikeZaTrcanje koja nasleđuje osobine klase Patika
+
+1. Generisati slucajan broj u intervalu od 1..10. Dobijeni broj ispitati da li paran ili neparan.  
+2. Kreirati dve niti. Postaviti im imena i prioritete i pokrenuti ih

@@ -1,0 +1,7 @@
+package primer1;
+
+public interface Patka {
+	public void kvace();
+
+	public void leti();
+}
