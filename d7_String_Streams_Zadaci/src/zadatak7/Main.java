@@ -1,7 +1,5 @@
 package zadatak7;
 
-import java.util.Scanner;
-
 // Napisati Java program koji će izračunati prosek svih pozitivnih cijelih brojeva 
 // unutar datog raspona (npr. od 1 do 100). 
 // Program treba da podržava unos raspona od korisnika i da ispisuje rezultat na ekran.
